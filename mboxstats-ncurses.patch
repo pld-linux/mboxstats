@@ -1,0 +1,9 @@
+diff -ur mboxstats-2.4/utils.cpp mboxstats-2.4.new/utils.cpp
+--- mboxstats-2.4/utils.cpp	2005-02-28 17:00:52.000000000 +0000
++++ mboxstats-2.4.new/utils.cpp	2005-03-06 12:50:58.337363040 +0000
+@@ -1,4 +1,4 @@
+-#include <curses.h>
++#include <ncurses/curses.h>
+ #include <errno.h>
+ #include <stdlib.h>
+ #include <string.h>
