@@ -42,7 +42,7 @@ uzyskania list:
  - najpopularniejszego czasu wysy³ania (miesiêcy, dni miesi±ca,
    dni tygodnia, godzin)
  - ¶redniej liczby linii w wiadomo¶ci
- - wszystkich rodzajów statystych dla u¿ytkownika
+ - wszystkich rodzajów statystyk dla u¿ytkownika
  - wiele wiêcej!
 
 %prep
