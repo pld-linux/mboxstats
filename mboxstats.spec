@@ -1,12 +1,12 @@
 Summary:	Several top-10 lists from messages in mbox format
 Summary(pl):	Tworzenie list dziesiêciu najlepszych z wiadomo¶ci w formacie mbox
 Name:		mboxstats
-Version:	1.4
+Version:	1.5
 Release:	1
 License:	GPL
 Group:		Applications
 Source0:	http://www.vanheusden.com/mboxstats/%{name}-%{version}.tgz
-# Source0-md5:	1a049fbdaf8e036398a2f7a2b8950966
+# Source0-md5:	54de1a0901f46bc844c9d1528a6c6263
 BuildRequires:	libstdc++-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -52,7 +52,7 @@ uzyskania list:
 %{__make} \
 	CC="%{__cc}" \
 	CXX="%{__cxx}" \
-	CPPFLAGS="%{rpmcflags}" \
+	CPPFLAGS="%{rpmcflags} -DVERSION=\\\"%{version}\\\"" \
 	LDFLAGS="%{rpmldflags} -lstdc++"
 
 %install
