@@ -1,13 +1,12 @@
 Summary:	Several top-10 lists from messages in mbox format
 Summary(pl):	Tworzenie list dziesiêciu najlepszych z wiadomo¶ci w formacie mbox
 Name:		mboxstats
-Version:	2.4
+Version:	2.6
 Release:	1
 License:	GPL
 Group:		Applications
 Source0:	http://www.vanheusden.com/mboxstats/%{name}-%{version}.tgz
-# Source0-md5:	39ededc267ab5f31e8d87cb3af573117
-Patch0:		%{name}-ncurses.patch
+# Source0-md5:	7bd926282e150ea7a4fc2130040c3c96
 URL:		http://www.vanheusden.com/mboxstats/
 BuildRequires:	libstdc++-devel
 BuildRequires:	ncurses-devel
@@ -50,7 +49,6 @@ uzyskania list:
 
 %prep
 %setup -q
-%patch0 -p1
 
 %build
 %{__make} \
