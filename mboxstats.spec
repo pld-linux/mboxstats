@@ -1,5 +1,5 @@
-Summary:	Creates several top-10 lists from messages in mbox format
-Summary(pl):	Tworzy listy dziesiêciu najlepszych z wiadomo¶ci w formacie mbox
+Summary:	Several top-10 lists from messages in mbox format
+Summary(pl):	Tworzenie list dziesiêciu najlepszych z wiadomo¶ci w formacie mbox
 Name:		mboxstats
 Version:	1.3
 Release:	1
@@ -7,24 +7,43 @@ License:	GPL
 Group:		Applications
 Source0:	http://www.vanheusden.com/mboxstats/%{name}-%{version}.tgz
 # Source0-md5:	14e4b1cba0b778dff00db8eb10b9291c
+BuildRequires:	libstdc++-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 mboxstats creates several top-10 lists from a file containing message
 in mbox-format. List of top10 lists:
 
-    - Top writes
-    - Top receivers
-    - Top subjects
-    - Top cc'ers
-    - Top top-level-domain
-    - Top timezones
-    - Top organisations
-    - Top useragents (mailprograms)
-    - Top month/day-of-month/day-of-week/hour
-    - Average number of lines per message
-    - All kinds of per-user statistics
-    - And much more!
+ - Top writers
+ - Top receivers
+ - Top subjects
+ - Top cc'ers
+ - Top top-level-domain
+ - Top timezones
+ - Top organisations
+ - Top useragents (mailprograms)
+ - Top month/day-of-month/day-of-week/hour
+ - Average number of lines per message
+ - All kinds of per-user statistics
+ - And much more!
+
+%description -l pl
+mboxstats tworzy ró¿ne listy dziesiêciu najlepszych ("top-10") z pliku
+zawieraj±cego wiadomo¶ci w formacie mbox. Oto lista mo¿liwych do
+uzyskania list:
+ - najwiêcej pisz±cych
+ - najwiêcej otrzymuj±cych
+ - najpopularniejszych tematów
+ - najwiêcej otrzymuj±cych jako kopiê (cc)
+ - najczê¶ciej spotykanych domen najwy¿szego poziomu (TLD)
+ - najczê¶ciej spotykanych stref czasowych
+ - najczê¶ciej spotykanych organizacji
+ - najczê¶ciej u¿ywanych programów pocztowych
+ - najpopularniejszego czasu wysy³ania (miesiêcy, dni miesi±ca,
+   dni tygodnia, godzin)
+ - ¶redniej liczby linii w wiadomo¶ci
+ - wszystkich rodzajów statystych dla u¿ytkownika
+ - wiele wiêcej!
 
 %prep
 %setup -q
