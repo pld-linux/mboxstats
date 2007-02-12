@@ -1,5 +1,5 @@
 Summary:	Several top-10 lists from messages in mbox format
-Summary(pl):	Tworzenie list dziesiêciu najlepszych z wiadomo¶ci w formacie mbox
+Summary(pl.UTF-8):   Tworzenie list dziesiÄ™ciu najlepszych z wiadomoÅ›ci w formacie mbox
 Name:		mboxstats
 Version:	2.9
 Release:	1
@@ -28,23 +28,23 @@ in mbox-format. List of top10 lists:
  - All kinds of per-user statistics
  - And much more!
 
-%description -l pl
-mboxstats tworzy ró¿ne listy dziesiêciu najlepszych ("top-10") z pliku
-zawieraj±cego wiadomo¶ci w formacie mbox. Oto lista mo¿liwych do
+%description -l pl.UTF-8
+mboxstats tworzy rÃ³Å¼ne listy dziesiÄ™ciu najlepszych ("top-10") z pliku
+zawierajÄ…cego wiadomoÅ›ci w formacie mbox. Oto lista moÅ¼liwych do
 uzyskania list:
- - najwiêcej pisz±cych
- - najwiêcej otrzymuj±cych
- - najpopularniejszych tematów
- - najwiêcej otrzymuj±cych jako kopiê (cc)
- - najczê¶ciej spotykanych domen najwy¿szego poziomu (TLD)
- - najczê¶ciej spotykanych stref czasowych
- - najczê¶ciej spotykanych organizacji
- - najczê¶ciej u¿ywanych programów pocztowych
- - najpopularniejszego czasu wysy³ania (miesiêcy, dni miesi±ca,
+ - najwiÄ™cej piszÄ…cych
+ - najwiÄ™cej otrzymujÄ…cych
+ - najpopularniejszych tematÃ³w
+ - najwiÄ™cej otrzymujÄ…cych jako kopiÄ™ (cc)
+ - najczÄ™Å›ciej spotykanych domen najwyÅ¼szego poziomu (TLD)
+ - najczÄ™Å›ciej spotykanych stref czasowych
+ - najczÄ™Å›ciej spotykanych organizacji
+ - najczÄ™Å›ciej uÅ¼ywanych programÃ³w pocztowych
+ - najpopularniejszego czasu wysyÅ‚ania (miesiÄ™cy, dni miesiÄ…ca,
    dni tygodnia, godzin)
- - ¶redniej liczby linii w wiadomo¶ci
- - wszystkich rodzajów statystyk dla u¿ytkownika
- - wiele wiêcej!
+ - Å›redniej liczby linii w wiadomoÅ›ci
+ - wszystkich rodzajÃ³w statystyk dla uÅ¼ytkownika
+ - wiele wiÄ™cej!
 
 %prep
 %setup -q
