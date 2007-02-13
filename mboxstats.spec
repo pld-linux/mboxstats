@@ -1,5 +1,5 @@
 Summary:	Several top-10 lists from messages in mbox format
-Summary(pl.UTF-8):   Tworzenie list dziesięciu najlepszych z wiadomości w formacie mbox
+Summary(pl.UTF-8):	Tworzenie list dziesięciu najlepszych z wiadomości w formacie mbox
 Name:		mboxstats
 Version:	2.9
 Release:	1
